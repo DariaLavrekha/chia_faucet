@@ -1,0 +1,106 @@
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    width: 768px;
+    margin: 0 auto;
+}
+
+.menu, footer {
+    width: 100%;
+    background-color: var(--green-color);
+    color: var(--dark-green-color);
+    text-transform: uppercase;
+}
+
+.menu .flex-container, footer .flex-container {
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.logo {
+    cursor: pointer;
+    font-weight: 700;
+    padding: 10px 10px 10px 0;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    padding: 10px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.menu ul li:last-child {
+    padding-right: 0;
+}
+
+h1 {
+    color: var(--dark-green-color);
+    margin: 60px 0 0;
+}
+
+h2 {
+    color: var(--light-green-color);
+    margin: 0;
+}
+
+h3 {
+    color: var(--dark-green-color);
+}
+
+p {
+    font-size: 12px;
+}
+
+section {
+    text-align: center;
+}
+
+.transparent {
+    background-color: var(--green-transparent-color);
+    padding: 60px 50% 80px 20px;
+    text-align: left;
+}
+
+.about {
+    width: 100%;
+    height: 50vh;
+    background: #F6F6F8 url("../img/leaf_bg_2.jpg") right no-repeat;
+    background-size: contain;
+}
+
+.about .flex-container {
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.features .flex-container {
+
+}
+
+.blocks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.block {
+    width: 30%;
+}
+
+.block h4 {
+    display: block;
+    width: 100%;
+    padding: 120px 0 20px;
+    margin: 0;
+    font-size: 36px;
+    background-color: var(--light-green-color);
+}
